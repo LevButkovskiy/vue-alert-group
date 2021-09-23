@@ -1,0 +1,36 @@
+.title {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 28px;
+
+  color: #2C323A;
+  text-transform: uppercase;
+}
+
+button {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+
+  padding: 4px 16px;
+
+  margin-right: 4px;
+
+  transition: 0.3s background-color;
+}
+
+button.active {
+  background: #70D24E;
+  color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0);
+}

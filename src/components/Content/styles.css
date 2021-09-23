@@ -1,0 +1,12 @@
+body {
+  max-width: 1200px;
+  background: none;
+
+  margin: 0 auto;
+}
+
+.buildings {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

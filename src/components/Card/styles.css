@@ -1,0 +1,154 @@
+.card {
+  width: 270px;
+  height: 365px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(86, 86, 86, 0.05);
+  border-radius: 10px;
+
+  margin: 15px;
+
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px 4px 16px;
+}
+
+.floor {
+  font-family: 'Gotham Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 28px;
+
+  opacity: 0.5;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+}
+
+.rooms, .square {
+  font-family: 'Gotham Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.delimeter {
+  font-family: 'Gotham Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 28px;
+
+  color: #2C323A;
+
+  margin: 0 10px;
+  opacity: 0.5;
+}
+
+body {
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  width: 250px;
+  height: 250px;
+
+  padding: 30px 10px;
+
+  position: relative;
+
+  transition: 1s height;
+
+  display: flex;
+}
+
+body.active {
+  height: 200px;
+}
+
+.number {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+
+  font-family: 'Gotham Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+
+  text-transform: uppercase;
+
+  color: #2C323A;
+
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 0px 5px;
+
+  width: 62px;
+
+  float: right;
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+footer {
+  padding: 0 16px;
+  margin-top: 10px;
+}
+
+.price {
+  font-family: 'Gotham Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+
+  text-align: right;
+}
+
+.priceForM {
+  font-family: 'Gotham Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 28px;
+
+  color: #2C323A;
+
+  text-align: right;
+
+  opacity: 0.5;
+}
+
+button {
+  background: #70D24E;
+  border-radius: 2px 2px 5px 5px;
+  border: none;
+
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  color: white;
+
+  width: calc(100% - 20px);
+  margin: 20px 10px 0 10px;
+}
